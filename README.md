@@ -1,5 +1,9 @@
 # VIZI
 
+> ⚠️ **Aviso:** Este projeto é um trabalho acadêmico desenvolvido para fins educacionais no curso de Análise e Desenvolvimento de Sistemas da PUC Minas. Não se trata de um produto comercial.
+
+---
+
 **ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - PUC MINAS**  
 **DESENVOLVIMENTO DE UMA APLICAÇÃO INTERATIVA - TURMA 05**  
 **2026/1**
@@ -40,3 +44,7 @@ A aplicação permite que usuários se cadastrem como moradores ou prestadores, 
 2. Abra a solução `ViziLogin.sln` no Visual Studio
 3. Execute `Update-Database` no Package Manager Console
 4. Rode o projeto com F5
+
+---
+
+*Projeto desenvolvido como trabalho interdisciplinar do 2º semestre do curso de ADS — PUC Minas, 2026.*
