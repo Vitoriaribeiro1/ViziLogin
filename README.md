@@ -12,8 +12,11 @@ O VIZI é uma plataforma web desenvolvida para conectar moradores e prestadores 
 
 A aplicação permite que usuários se cadastrem como moradores ou prestadores, publiquem necessidades de serviços e encontrem profissionais disponíveis em seu bairro, promovendo maior integração e colaboração dentro da comunidade.
 
-## 🌐 Acesso Online
-[https://vizi-cvbtfxf9abd6ecat.brazilsouth-01.azurewebsites.net/](https://vizi-cvbtfxf9abd6ecat.brazilsouth-01.azurewebsites.net/)
+## 🌐 Hospedagem
+https://vizi-cvbtfxf9abd6ecat.brazilsouth-01.azurewebsites.net/
+
+## 💻 Código-Fonte
+- [Código Fonte](https://github.com/Vitoriaribeiro1/ViziLogin)
 
 ## 👥 Integrantes
 - Phillipe Dias
