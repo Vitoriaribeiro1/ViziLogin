@@ -23,13 +23,20 @@
 <body>
 
     <header class="header">
-        <img src="~/img/LogoFundoAzul.jpeg" class="Logo" alt="LogoVizi">
+        <a asp-controller="Home" asp-action="Index">
+            <img src="~/img/LogoFundoAzul.jpeg" class="Logo" alt="LogoVizi">
+        </a>
 
         <nav class="menu">
             <a class="navegacao" asp-controller="Login" asp-action="Sair">Logout</a>
 
             <a class="navegacao" href="#">Inicio</a>
             <a class="navegacao" href="#">Serviços</a>
+
+            @if (User.IsInRole("ADMINISTRADOR"))
+            {
+                <a class="navegacao" asp-controller="Admin" asp-action="Index">Painel Admin</a>
+            }
 
             <div class="container-notificacao">
                 <button type="button"
@@ -114,8 +121,8 @@
 
                         <span class="Nome">
                             <a asp-controller="Prestador"
-                               asp-action="Perfil"
-                               asp-route-id="@item.UsuarioId">
+                                   asp-action="Perfil"
+                                   asp-route-id="@item.UsuarioId">
                                 @item.Profissional
                             </a>
                         </span>
